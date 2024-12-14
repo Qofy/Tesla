@@ -9,7 +9,7 @@ export default function Header(){
     <div>
      <header className="header">
      <div className='head'>
-      <h2>TESLR</h2>
+      <h2 className='tesla-logo'>TESLR</h2>
       <div className='middle'>
     
           <a href="#">vehicles</a>
@@ -25,6 +25,22 @@ export default function Header(){
       <Globe color='#fff'/>
       <CircleUser color='#fff'/>
       </div>
+     </div>
+
+     <div className="info-box">
+      <h1>
+      <span className='h1'>
+      Model Y
+      </span>
+      <span className='h2'>
+The Tesla environmental bonus of €6,000 ends on December 15, 2024
+      </span>
+
+      <span className='h3'>
+General terms and conditions apply. <span className='expo'>1</span> <span className='explore'>Explore inventory</span> 
+      </span>
+
+      </h1>
      </div>
      </header>
     </div>

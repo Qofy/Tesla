@@ -42,6 +42,12 @@ General terms and conditions apply. <span className='expo'>1</span> <span classN
 
       </h1>
      </div>
+
+     
+     <div className="btn">
+     <a href="#"><buton className="btn1"> Order</buton></a> 
+      <a href="#"><buton className="btn2"> test drive</buton></a> 
+     </div>
      </header>
     </div>
   )

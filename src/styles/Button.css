@@ -1,0 +1,28 @@
+.header__btn1, .header__btn2{
+  padding: 1rem 11rem; 
+
+ border-radius: 0.3rem;
+ cursor: pointer;
+}
+
+.header__btn1{
+ margin-right: 1rem;
+ background-color: #3e69e1d3;
+ color: #fff;
+}
+
+.header__btn2 {
+ background-color: #fff;
+ color: #000;
+}
+
+.header__btn{
+ text-align: center;
+ transform: translateY(80vh);
+}
+
+.header__btn a{
+ text-decoration: none;
+ font-size: 1.5rem;
+}
+

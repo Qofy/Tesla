@@ -1,6 +1,11 @@
 import '../styles/Header.css'
+import '../styles/Button.css'
+
 
 import { CircleHelp, Globe, CircleUser } from 'lucide-react'
+
+import Button from './Button'
+
 
 
 
@@ -8,9 +13,9 @@ export default function Header(){
   return(
     <div>
      <header className="header">
-     <div className='head'>
-      <h2 className='tesla-logo'>TESLR</h2>
-      <div className='middle'>
+     <div className='header__head'>
+      <h2 className='header__logo'>TESLR</h2>
+      <div className='header__middle'>
     
           <a href="#">vehicles</a>
           <a href="#">energy</a>
@@ -20,34 +25,32 @@ export default function Header(){
           <a href="#">We, Robot</a>
         
       </div>
-      <div className='right-side'>
+      <div className='header__right-side'>
       <CircleHelp color='#fff'/>
       <Globe color='#fff'/>
       <CircleUser color='#fff'/>
       </div>
      </div>
 
-     <div className="info-box">
+     <div className="header__info-box">
       <h1>
-      <span className='h1'>
+      <span className='header__h1'>
       Model Y
       </span>
-      <span className='h2'>
+      <span className='header__h2'>
 The Tesla environmental bonus of €6,000 ends on December 15, 2024
       </span>
 
-      <span className='h3'>
-General terms and conditions apply. <span className='expo'>1</span> <span className='explore'>Explore inventory</span> 
+      <span className='header__h3'>
+General terms and conditions apply. <span className='header__expo'>1</span> <span className='header__explore'>Explore inventory</span> 
       </span>
 
       </h1>
      </div>
 
      
-     <div className="btn">
-     <a href="#"><buton className="btn1"> Order</buton></a> 
-      <a href="#"><buton className="btn2"> test drive</buton></a> 
-     </div>
+      <Button/>
+      <p className='header_explore_link'>Explore Inventory</p>
      </header>
     </div>
   )

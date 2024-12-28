@@ -1,0 +1,16 @@
+pages = {
+  pagw_without_video_bg:[
+    {
+      backgroungImg : "",
+      h1: 'Modle 3',
+    }
+  ],
+
+  pagw_with_video_bg: [
+    {
+      backgroungVideo: "",
+      h1: "Experience",
+      paragraph:'Arrange a test drive today'
+    }
+  ]
+}

@@ -1,18 +1,45 @@
+// App.jsx
 import './App.css'
-import Header from './component/Header'
+import Header from './component/Header';
+import P1 from './component/Pages';
+import Modle3 from '../src/images/Homepage-Model-3-Desktop-US.png'
+import ModleS from '../src/images/Homepage-Model-S-Desktop-US.png'
+import ModleX from '../src/images/Homepage-Model-X-Desktop-US.png'
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-</style>
 
+const teslaModels = [
+  {
+    h3: 'Model 3',
+    backgroundImage: Modle3  // Add background image paths
+  },
+  {
+    h3: 'Model S',
+    price: "from 92,990$",
+    backgroundImage: ModleS
+  },
+  {
+    h3: 'Model X',
+    price: "From 97,990$",
+    backgroundImage: ModleX
+  }
+];
 
-export default function App(){
-  return(
+export default function App() {
+  return (
     <div className='main-view'>
       <div className='notice'>
-      <span className='spec'>Get 1 year of free Supercharger charging</span> when you take delivery of your Model Y before December 31, 2024. <span className='spec'>Explore inventory</span>
+        <span className='spec'>Get 1 year of free Supercharger charging</span> 
+        when you take delivery of your Model Y before December 31, 2024. 
+        <span className='spec'>Explore inventory</span>
       </div>
-      <Header/>
+      <Header />
+      {teslaModels.map((model, index) => (
+        <P1 
+          modelInfo={model}
+          key={index}
+        />
+      ))}
+      
     </div>
   )
 }

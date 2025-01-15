@@ -16,10 +16,7 @@
  color: #000;
 }
 
-.header__btn{
- text-align: center;
- transform: translateY(80vh);
-}
+
 
 .header__btn a{
  text-decoration: none;

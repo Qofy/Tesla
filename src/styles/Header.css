@@ -6,10 +6,6 @@ html{
 .header{
   height: 95vh;
   background-image: 
-  /* linear-gradient(to bottom, 
-  rgba(12, 113, 164, 0.765) 0%, 
-  rgba(155, 193, 231, 0.181) 30%, 
-  #ffffff00 100%), */
   url('../images/Homepage-Model-Y-Desktop-Global-v2.png');
    background-position: center; 
   background-repeat: no-repeat; 
@@ -37,11 +33,13 @@ html{
   text-decoration: none;
   color: #fff;
   font-size: 1.3rem;
+  
 }
 
 .header__middle{
   width: 50vh;
   display: flex;
+
   justify-content: space-between;
   overflow-wrap: normal;
 }
@@ -146,3 +144,7 @@ width: 100vh;
   letter-spacing: .1rem;
  }
  
+ .header__btn-1{
+  text-align: center;
+  transform: translateY(80vh);
+ }

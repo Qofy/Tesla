@@ -12,15 +12,23 @@
 }
 
 .notice{
-  height: 50px;
+  height: 6rem;
   width: 100%;
   position: fixed;
   z-index: 1;
   text-align: center;
   padding-top: 15px;
   font-weight: 300;
-  font-size: 14px;
-  background-color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+  background-image: radial-gradient(
+  100% 100% at 50% 50%,
+  rgba(27, 34, 53, 0.92) 0%,
+  rgba(0, 0, 0, .92) 100%
+);
+transition: background-position 0.5s ease-out;
+
 }
 .spec{
   text-decoration: underline;

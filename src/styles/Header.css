@@ -4,18 +4,19 @@ html{
 }
 
 .header{
-  height: 95vh;
+  height: 100vh;
   background-image: 
   url('../images/Homepage-Model-Y-Desktop-Global-v2.png');
    background-position: center; 
   background-repeat: no-repeat; 
    background-size: cover; 
    position: relative;
+   padding-top: 6rem;
 }
 
 .header__head{
   width: 100%;
-  height: 6rem;
+  height: 6.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,12 +28,19 @@ html{
   color: #fff;
   letter-spacing: 1rem;
   animation: teslr 4s ease-out;
+  font-size: 3rem;
+  /* z-index: 1;
+  margin-top: 10rem; */
+
 }
 
 .header__middle a{
   text-decoration: none;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  /* margin-top: 10rem; */
+
   
 }
 
@@ -48,6 +56,8 @@ html{
   width: 5%;
   display: flex;
   justify-content: space-between;
+  /* margin-top: 10rem; */
+
 }
 
 @keyframes teslr{
@@ -84,7 +94,7 @@ html{
 
 .header__info-box{
 position: absolute;
-top: 10%;
+top: 14%;
 left: 50%;
 transform: translate(-50%);
 text-align: center;
@@ -140,11 +150,15 @@ width: 100vh;
   font-size: 1.2rem;
   font-weight: 300;
   text-align: center;
-  transform: translateY(80vh);
+  transform: translateY(75vh);
   letter-spacing: .1rem;
  }
- 
- .header__btn-1{
+ /* .header__cta-button {
   text-align: center;
-  transform: translateY(80vh);
- }
+  position: absolute;
+  top: 7;
+
+} */
+ 
+ 
+ 

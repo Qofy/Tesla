@@ -34,6 +34,15 @@ html{
 
 }
 
+.header__logo-img{
+  width: 13rem;
+  background-color: transparent;
+  opacity: 1;
+  background: none;
+
+}
+
+
 .header__middle a{
   text-decoration: none;
   color: #fff;

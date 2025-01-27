@@ -1,6 +1,8 @@
 import '../styles/Header.css'
 import '../styles/Button.css'
 import { CircleHelp, Globe, CircleUser } from 'lucide-react'
+import Logo from "../images/tesla-logo-1.svg"
+
 
 export default function Header(){
   
@@ -8,7 +10,7 @@ export default function Header(){
     <div>
      <header className="header">
      <div className='header__head'>
-      <h2 className='header__logo'>TESLR</h2>
+      <img src={Logo} alt="Tesla Logo" className='header__logo-img'/>
       <div className='header__middle'>
           <a href="#">Vehicles</a>
           <a href="#">Energy</a>

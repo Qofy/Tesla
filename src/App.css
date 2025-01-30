@@ -15,7 +15,7 @@
   height: 6rem;
   width: 100%;
   position: fixed;
-  z-index: 1;
+  z-index: 99999;
   text-align: center;
   padding-top: 15px;
   font-weight: 300;

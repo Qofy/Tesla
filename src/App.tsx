@@ -2,7 +2,9 @@
 import './App.css'
 import Header from './component/Header';
 import Contrnt from './component/Pages';
-import Button from "./component/Button"
+import Button from "./component/btn/Button";
+import Button2 from "./component/btn/Button-2";
+
 import Modle3 from '../src/images/Homepage-Model-3-Desktop-US.png'
 import ModleS from '../src/images/Homepage-Model-S-Desktop-US.png'
 import ModleX from '../src/images/Homepage-Model-X-Desktop-US.png'
@@ -35,22 +37,26 @@ const teslaModels = [
   {
     h3: "Experience Tesla",
     paragraph: "Arrange a test drive Today",
-    bg_video: TestDriveVideo
+    bg_video: TestDriveVideo,
+    btn: <Button2/>
   },
 
   {
     h3:"Powerwall",
-    backgroundImage: Powerwall
+    backgroundImage: Powerwall,
+    btn: <Button order = "Get a quote" test1 = "More information"/>
   },
 
   {
     h3: "Accesories",
-    backgroundImage: Accesories
+    backgroundImage: Accesories,
+    btn: <Button2 test = "Shop now"/>
   },
 
   {
     h4:"We are Tesla",
-    bg_video: Manifacturing
+    bg_video: Manifacturing,
+    btn: <Button2 test = "Come to Tesla" className = "btn3" className2 = "header__btn3"/>
 
   }
 ];

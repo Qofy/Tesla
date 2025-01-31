@@ -66,7 +66,7 @@ export default function App() {
     <div className='main-view'>
       <div className='notice'>
         <span className='spec'>Get 1 year of free Supercharger charging</span> 
-        when you take delivery of your Model Y before December 31, 2024. 
+        when you take delivery of your Model Y before December 31, 2024.  
         <span className='spec'>Explore inventory</span>
       </div>
 

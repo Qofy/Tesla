@@ -21,7 +21,7 @@ const teslaModels = [
   {
     h3: 'Model 3',
     backgroundImage: Modle3 ,
-    btn: <Button/>
+    btn: <Button className4="model3__btn"/>
   },
   {
     h3: 'Model S',

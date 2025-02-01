@@ -76,4 +76,7 @@
   border: none;
   border-radius: .3rem;
 }
-
+.model3__btn{
+  text-align: center;
+  transform: translateY(68vh);
+}

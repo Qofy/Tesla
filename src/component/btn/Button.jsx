@@ -1,6 +1,6 @@
-export default function Button({order = "Order", test1 = "test drive"}){
+export default function Button({order = "Order", test1 = "test drive", className4="btn"}){
   return(
-    <div className="btn">
+    <div className={className4}>
        <a href="#">
       <button className="header__btn1">
        {order}

@@ -5,9 +5,9 @@ import Contrnt from './component/Pages';
 import Button from "./component/btn/Button";
 import Button2 from "./component/btn/Button-2";
 
-import Modle3 from '../src/images/Homepage-Model-3-Desktop-US.png'
-import ModleS from '../src/images/Homepage-Model-S-Desktop-US.png'
-import ModleX from '../src/images/Homepage-Model-X-Desktop-US.png'
+import Modle3 from './images/Homepage-Model-3-Desktop-US.png'
+import ModleS from './images/Homepage-Model-S-Desktop-US.png'
+import ModleX from './images/Homepage-Model-X-Desktop-US.png'
 import TestDriveVideo from "./images/testdrive.mov"
 import Powerwall from "./images/Homepage-Powerwall-3-Desktop-ROW.png"
 import Accesories from "./images/Homepage-Accessories-Desktop-EMEA-v2.png"

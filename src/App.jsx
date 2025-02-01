@@ -11,7 +11,8 @@ import ModleX from './images/Homepage-Model-X-Desktop-US.png'
 import TestDriveVideo from "./images/testdrive.mov"
 import Powerwall from "./images/Homepage-Powerwall-3-Desktop-ROW.png"
 import Accesories from "./images/Homepage-Accessories-Desktop-EMEA-v2.png"
-import Manifacturing from "./images/manifacture.mp4"
+
+const Manifacturing = "https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto:best/Homepage-We-Are-Tesla-Desktop.mp4"
 
 
 

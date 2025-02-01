@@ -10,7 +10,8 @@
 }
 
 .section__content {
-  margin-top: 8rem;
+  /* margin-top: 8rem; */
+  padding: 5rem 0;
 }
 
 .section__model-type {

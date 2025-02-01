@@ -5,14 +5,15 @@
   flex-direction: column;
   justify-content: space-between;
   color: white;
-  padding: 2rem;
+  /* padding: 2rem; */
+  padding-top:7rem;
+  padding-bottom: 1.5rem;
   position: relative;
 }
 
-.section__content {
-  /* margin-top: 8rem; */
-  padding: 5rem 0;
-}
+/* .section__content {
+   margin-top: 8rem; 
+} */
 
 .section__model-type {
   font-size: 7rem;
@@ -33,13 +34,13 @@ font-size: 1.5rem;
 .section__h4{
   font-size: 5rem;
   font-weight: 500;
-  transform: translateY(38vh);
+  transform: translateY(50vh);
   margin-left: 3rem;
 }
 
 .section__button {
   text-align: center;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   display: flex;
 }
 

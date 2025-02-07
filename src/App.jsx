@@ -4,6 +4,8 @@ import Header from './component/Header';
 import Contrnt from './component/Pages';
 import Button from "./component/btn/Button";
 import Button2 from "./component/btn/Button-2";
+import Footer from "./component/Footer";
+
 
 import Modle3 from './images/Homepage-Model-3-Desktop-US.png'
 import ModleS from './images/Homepage-Model-S-Desktop-US.png'
@@ -78,7 +80,9 @@ export default function App() {
           modelInfo={model}
           key={index}
         />
-      ))}
+      ))};
+
+      <Footer/>
       
     </div>
   )

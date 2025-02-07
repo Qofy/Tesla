@@ -1,0 +1,51 @@
+.footer{
+  height: 68vh;
+}
+
+.footer__data{
+  width: 76rem;
+  color: gray;
+  font-size: 1.5rem;
+  margin: 2rem auto;
+  position: relative;
+}
+
+.footer__data--1{
+  margin-bottom: 2.5rem;
+}
+
+.footer__data--2{
+  margin-bottom: 2.5rem;
+}
+
+.footer__data--3{
+}
+
+.footer__data--3 a{
+  color: rgb(89, 85, 85);
+}
+
+.footer__data-expo{
+  font-size: .9rem;
+  position: absolute;
+  left: -6px;
+}
+
+.footer__enquarries{
+  text-align: center;
+  color: gray;
+  font-size: 1.3rem;
+}
+
+.footer__enquarries a{
+  color: black;
+  font-size: 1.3rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: gray;
+
+}
+
+.special{
+  margin-left: 1rem;
+}

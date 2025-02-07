@@ -7,6 +7,10 @@
   font-family: "Open Sans", sans-serif !important;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 .main-view{
   font-style: normal;
   font-family: 'Open Sans', sans-serif;
@@ -38,3 +42,131 @@ transition: background-position 0.5s ease-out;
   color: #fff;
   border-radius: .3rem;
 }
+/* Mobile First Approach */
+
+/* Small phones (320px - 480px) */
+/* @media screen and (max-width: 480px) {
+  html {
+      font-size: 50%;
+  }
+
+  .header__head {
+      
+  }
+
+  .header__middle {
+      display: none;
+  }
+
+  .header__right-side {
+      width: 20%;
+  }
+
+  .header__info-box {
+      width: 90%;
+  }
+
+  .header__h1 {
+      font-size: 4rem;
+  }
+
+  .header__h2 {
+      font-size: 1.8rem;
+  }
+
+  .notice {
+      font-size: 1.2rem;
+      padding: 1rem;
+  }
+
+  .footer__data {
+      width: 90%;
+      margin: 1rem;
+  }
+
+  .header__btn1,
+  .header__btn2 {
+      padding: 1rem 5rem;
+  }
+} */
+
+/* Medium phones to Tablets (481px - 768px) */
+/* @media screen and (min-width: 481px) and (max-width: 768px) {
+  .header__middle {
+      width: 40vh;
+      gap: 1.5rem;
+  }
+
+  .header__right-side {
+      width: 15%;
+  }
+
+  .footer__data {
+      width: 85%;
+  }
+} */
+
+/* Tablets to Laptops (769px - 1024px) */
+/* @media screen and (min-width: 769px) and (max-width: 1024px) {
+  .header__middle {
+      width: 45vh;
+      gap: 2rem;
+  }
+
+  .footer__data {
+      width: 80%;
+  }
+} */
+
+/* Desktop (1025px - 1200px) */
+/* @media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .header__middle {
+      width: 48vh;
+  }
+} */
+
+/* Large Desktop (1201px and above) */
+/* @media screen and (min-width: 1201px) {
+  .header__middle {
+      width: 50vh;
+  }
+} */
+
+/* Landscape Mode */
+/* @media screen and (max-height: 500px) and (orientation: landscape) {
+  .header {
+      height: 120vh;
+  }
+
+  .header__btn {
+      transform: translateY(70vh);
+  }
+} */
+
+/* High DPI Screens */
+/* @media screen and (-webkit-min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi) {
+  .header {
+      background-image: url('../images/Homepage-Model-Y-Desktop-Global-v2@2x.png');
+  }
+} */
+
+/* Dark Mode */
+/* @media (prefers-color-scheme: dark) {
+  .header__head--scrolled {
+      background-color: #1a1a1a;
+  }
+
+  .header__head--scrolled .header__middle a {
+      color: #fff;
+  }
+} */
+
+/* Print Styles */
+/* @media print {
+  .header__btn,
+  .header__right-side,
+  .notice {
+      display: none;
+  }
+} */

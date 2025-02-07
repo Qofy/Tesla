@@ -1,22 +1,12 @@
-/* Base Button Styles */
-.btn {
+.btn{
   text-align: center;
-  transform: translateY(67vh);
+  transform: translateY(77vh);
 }
 
-.btn2 {
-  text-align: center;
-  transform: translateY(66vh);
-}
-
-.btn3 {
-  transform: translateY(53vh);
-}
-
-/* Header Button Styles */
-.header__btn {
+.header__btn{
   text-align: center;
   transform: translateY(83vh);
+
 }
 
 .header__btn1,
@@ -28,23 +18,26 @@
   font-size: 1.6rem;
 }
 
-.header__btn1,
-.header__btn1 a {
+
+
+.header__btn1 , .header__btn1 a{
   margin-right: 1rem;
   background-color: #3e69e1d3;
   color: #fff;
   text-decoration: none;
 }
 
-.header__btn2,
-.header__btn2 a {
+.header__btn2, .header__btn2 a {
   background-color: #fff;
   color: #000;
   text-decoration: none;
 }
 
+
+
 .header__btn a {
   text-decoration: none;
+  /* font-size: 1.6rem; */
 }
 
 .header__cta-button .header__btn1 {
@@ -64,7 +57,17 @@
   cursor: pointer;
 }
 
-.header__btn3 {
+
+.btn2{
+  text-align: center;
+  transform: translateY(75vh);
+}
+
+.btn3{
+  transform: translateY(53vh)
+}
+
+.header__btn3{
   padding: 1.5rem 8.9rem;
   margin-left: 3rem;
   font-size: 1.6rem;
@@ -74,14 +77,15 @@
   border-radius: .3rem;
 }
 
-/* Model3 Button Styles */
-.model3__btn {
+.model3__btn{
   text-align: center;
-  position: absolute;
-  transform: translate(170%, 1950%);
+  transform: translateY(73vh)
+
 }
 
-.model3__btn--1 {
+
+.model3__btn--1{
   text-align: center;
-  margin-top: 37%;
+  transform: translateY(74vh)
+
 }

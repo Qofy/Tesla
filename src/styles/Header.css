@@ -1,7 +1,5 @@
 /* Sets base font size for the entire document */
-html {
-  font-size: 62.5%;
-}
+
 
 /* Main header container with background image */
 .header {

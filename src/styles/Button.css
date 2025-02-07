@@ -1,6 +1,6 @@
 .btn{
   text-align: center;
-  transform: translateY(77vh);
+  transform: translateY(70vh);
 }
 
 .header__btn{
@@ -60,7 +60,7 @@
 
 .btn2{
   text-align: center;
-  transform: translateY(75vh);
+  transform: translateY(70vh);
 }
 
 .btn3{
@@ -79,13 +79,13 @@
 
 .model3__btn{
   text-align: center;
-  transform: translateY(73vh)
+  transform: translateY(69vh)
 
 }
 
 
 .model3__btn--1{
   text-align: center;
-  transform: translateY(74vh)
+  transform: translateY(72vh)
 
 }

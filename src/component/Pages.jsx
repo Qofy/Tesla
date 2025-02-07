@@ -6,6 +6,7 @@ export default function Pages({ modelInfo }) {
   const style = modelInfo.bg_video? {} : {
     backgroundImage: `url(${modelInfo.backgroundImage})`,
     backgroundSize: 'cover',
+    backgroundPosition: '100%'
   }
 
 

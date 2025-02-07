@@ -5,6 +5,9 @@
   color: white;
   /* padding: 2rem; */
   padding-bottom: 3.2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
 }
 

@@ -23,19 +23,19 @@ const teslaModels = [
   {
     h3: 'Model 3',
     backgroundImage: Modle3 ,
-    btn: <Button className4="model3__btn"/>
+    btn: <Button className4="model3__btn--1"/>
   },
   {
     h3: 'Model S',
     price: "from 92,990$",
     backgroundImage: ModleS,
-    btn: <Button/>
+    btn: <Button className4="model3__btn"/>
   },
   {
     h3: 'Model X',
     price: "From 97,990$",
     backgroundImage: ModleX,
-    btn: <Button/>
+    btn: <Button className4="model3__btn"/>
   },
   {
     h3: "Experience Tesla",

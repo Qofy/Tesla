@@ -31,7 +31,7 @@ html {
 transition: background-position 0.5s ease-out;
 
 }
-.spec:not(){
+.spec{
   text-decoration: underline;
 }
 

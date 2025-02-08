@@ -29,11 +29,12 @@ export default function Pages({ modelInfo }) {
         {modelInfo.price && <p className="section__model-price">{modelInfo.price}</p>}
         {modelInfo.paragraph && <p className="section__model_paragraph">{modelInfo.paragraph}</p>}
         </div>
-        
+
         <div>
         {modelInfo.btn}
         </div>
       </div>
+
      
         </div>
    

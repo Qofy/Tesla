@@ -16,14 +16,12 @@
    flex: 1;
 }
 
-/* .section__content {
-   margin-top: 8rem; 
-} */
-
 .section__model-type {
   font-size: 7rem;
   text-align: center;
 }
+
+
 
 .section__model-price {
   text-align: center;

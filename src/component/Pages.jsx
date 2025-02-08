@@ -19,14 +19,20 @@ export default function Pages({ modelInfo }) {
         </video>
       )}
       <div className="section__content">
-        <h3 className="section__model-type">{modelInfo.h3} 
+        <div>
+        <h3 className="section__model-type">
+          {modelInfo.h3} 
         </h3>
         <h4 className='section__h4'>
           {modelInfo.h4}
         </h4>
         {modelInfo.price && <p className="section__model-price">{modelInfo.price}</p>}
         {modelInfo.paragraph && <p className="section__model_paragraph">{modelInfo.paragraph}</p>}
+        </div>
+        
+        <div>
         {modelInfo.btn}
+        </div>
       </div>
      
         </div>

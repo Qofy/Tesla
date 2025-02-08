@@ -1,21 +1,22 @@
 .btn{
   text-align: center;
-  transform: translateY(70vh);
+  /* transform: translateY(70vh); */
 }
 
 .header__btn{
-  text-align: center;
+  text-align:center;
   transform: translateY(83vh);
 
 }
 
 .header__btn1,
 .header__btn2 {
-  padding: 1rem 11rem;
+  width: 34rem;
+  height: 5rem;
   border: none;
   border-radius: 0.3rem;
   cursor: pointer;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 
@@ -60,11 +61,11 @@
 
 .btn2{
   text-align: center;
-  transform: translateY(70vh);
+  /* transform: translateY(70vh); */
 }
 
 .btn3{
-  transform: translateY(53vh)
+   transform: translateY(-23vh)  
 }
 
 .header__btn3{
@@ -79,13 +80,10 @@
 
 .model3__btn{
   text-align: center;
-  transform: translateY(69vh)
 
 }
 
 
 .model3__btn--1{
   text-align: center;
-  transform: translateY(72vh)
-
 }
